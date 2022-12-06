@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.parent1{
+    box-shadow: 5px 5px 10px 10px rgba(247, 123, 220, 0.832);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.child1{
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient( rgb(249, 16, 98) , white, rgb(249, 16, 98));
+}
+
+
+
+.child2{
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient( rgb(249, 16, 98) , white, rgb(249, 16, 98));
+    opacity: 0.3;
+    filter: blur(2px);
+
+}
+
+.child3{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(rgb(249, 16, 98) , white, rgb(249, 16, 98));
+}
+.parent2{
+    box-shadow: 5px 5px 10px 10px rgba(100, 244, 131, 0.452);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.child4{
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient( green, white, green);
+}
+
+
+
+.child5{
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(green, white,green);
+    opacity: 0.3;
+    filter: blur(2px);
+
+}
+
+.child6{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(green , white, green);
+}
+
+.line{
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    box-shadow: 20px 0px rgb(0, 0, 0);
+}
+.parent3{
+    box-shadow: 5px 5px 10px 10px rgba(109, 153, 248, 0.452);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.child7{
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient( blue , white, blue);
+}
+
+
+
+.child8{
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient( blue , white, blue);
+    opacity: 0.3;
+    filter: blur(2px);
+
+}
+.child9{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(blue , white, blue);
+}
